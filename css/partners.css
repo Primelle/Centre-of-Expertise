@@ -1,0 +1,164 @@
+/*Opmaak van de breadcrumbs*/
+.breadcrumbs{
+	list-style-type: none;
+	display: inline;
+	float: left;
+	margin: 5px ;
+	float: left;
+	clear: right;
+}
+
+.breadcrumbs_margin{
+	margin-left: 55px;
+}
+/*Einde opmaak breadcrumbs*/
+
+
+.eerste_tab{
+	float:left;
+	margin-left:100px;
+}
+
+/*Op maak van alle tabs*/
+.tabs{
+	background-color: #E4E4E4; /*grijs*/
+	width:175px;
+	height:60px;
+	float:left;
+	margin-right: 5px;
+	margin-top: 30px;
+}
+/*De tab "nieuwe partners" staat open en krijgt een ander kleur*/
+.open{
+	background-color: #F3F3F3;
+}
+
+.tabs>p{
+	text-align:center;
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+
+/*Opmaak zoekbalk bij de filters in de tab*/
+#zoekbalk_partners{
+	display: inline;
+	float:left;
+	margin-top:-40px;
+	margin-left:800px;
+}
+
+#zoekbalk_button_partners{
+	float:left;
+	margin-top:-40px;
+}
+/*Einde opmaak zoekbalk*/
+
+.achtergrond_partners{
+	float:left;
+	margin-left:100px;
+	width:1080px;
+	height: 1500px;
+	background-color: #F3F3F3;
+}
+/*Opmaak p & dropdown lists van de filters*/
+.filter{
+	float:left;
+	margin-top:40px;
+	margin-right:10px;
+
+}
+
+.filter1{
+	margin-left: 30px;
+}
+/*Opmaak dropdown list van de filters*/
+
+.dropdown{
+	height:25px;
+	width:200px;
+}
+
+#resultaten_onderzoeken{
+	clear:both;
+	margin-left: 30px;
+	margin-top: 125px;
+	margin-bottom: 40px;
+}
+
+/*Hier komt de opmaak elk partner sectie*/
+
+/*Opmaak foto van elk partner*/
+.partnersfoto{
+	width:174px;
+	height:165px;
+	float:left;
+	margin-left:40px;
+	border: 1px solid #e5e5e5;
+}
+
+/*Opmaak kader om elk partner*/
+.kader_partners{
+	background-color: #ffffff; /*grijs*/
+	width: 825px;
+	height: 165px;
+	margin-bottom: 30px;
+	float: left;
+	border: 1px solid #e5e5e5;
+}
+
+/*Opmaak tekst bij elk partner*/
+.tekst_partners{
+	margin-left: 20px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.tekst_afstand{
+	margin-bottom: -8px;
+}
+
+/* Pagination links */
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: #AAC116;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.pagination {
+  display: inline-block;
+  margin-top: 40px;
+  float:left;
+  margin-left: 410px;
+}
+
+/*Hier begint de opmaak van de footer*/
+
+footer{
+	float: left;
+	margin-top:100px;
+	width: 1280px;
+	height:350px;
+	background-color: #414B4F; /*donkerblauw*/
+}
+
+.pijl{
+	width:27px;
+	height:33px;
+	float:right;
+	margin-top:20px;
+	margin-right: 20px;
+
+}
+
+

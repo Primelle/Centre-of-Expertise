@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
+
+body{
+	font-family: 'Work Sans';
+	font-size: 16px;
+	color: #000000; /*black*/
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Raleway';
+}
+
+h1{
+	font-size:32px;
+	color: #223242;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 26px;
+	color: #223242;
+}
+
+h3{
+	font-size: 22px;
+	color: #223242;
+
+}
+
+h4{
+	font-size: 18px;
+	text-transform: uppercase;
+	color:  #AAC116; /*green*/
+}
+
+h5{
+	font-size:16px;
+
+}
+
+/*navigatie menu, krijgt als enige link zwarte kleur.*/
+nav>ul>li>a{
+	color:#000000; /*black*/
+	font-family: 'Raleway';
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*De pagina waarop de gebruiker zich bevindt is groen in de header*/
+.pagina{
+	color:#AAC116;
+}
+
+.bannertitel{
+	font-size: 45px;
+}
+
+/*Dit is de opmaak voor links*/
+a{
+	font-family: 'Work Sans';
+	color: #00CCFF;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #AAC116; /*Green*/
+	text-decoration: underline;
+}
+
+a:active{
+	font-family: 'Work Sans';
+	color: #00CCFF;
+	font-weight: bold;
+}
+
+.actualiteit>h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	clear: both;
+}
+
+/*Dit is de standaard button opmaak*/
+button{
+	text-transform: uppercase;
+	background-color: #AAC116; /* Green */
+	color:#ffffff;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Work Sans';
+	
+}
+.evenementen>h4{
+	color: #AAC116;
+}
+
+#text_socialmedia{
+	font-weight:bold;
+	color:white;
+}
+
+.footerlinks{
+	color:#AAC116;
+}
+
+.footerlinks:hover{
+	color:#AAC116;
+	text-decoration: underline;
+}
+
+.titelfooter{
+	color:white;
+}
+
+#emailadres{
+	text-transform: uppercase;
+	font-size:16px;
+	font-family: 'Work Sans';
+}
+
+.zoekbalk_standaard{
+	font-size: 16px;
+	font-family: 'Work Sans';
+}
+
+.extra_footer{
+	color:white;
+}
+
+.extra_footer:hover{
+	color:#AAC116;
+	text-decoration: underline;
+}
+
+/*Opmaak van pagina 2: Partners*/
+
+.tabs_font{
+	font-family: 'Raleway';
+	text-transform: uppercase;
+	color: #000000;
+	font-size:14px;
+}
+
+.open{
+	font-weight:bold;
+}
+
+.dropdown , .dropdown2 , .dropdown3{
+	font-size:14px;
+}
+
+.titel_filter{
+	font-weight: bold;
+}
+
+/*Opmaak breadcrumbs*/
+.breadcrumbs>a{
+	text-transform: capitalize;
+	font-weight: normal;
+	font-family: 'Work Sans';
+	font-size: 16px;
+	color: #00CCFF;
+}
+
+.niet>a{
+		color:#000000;
+		text-decoration: none;
+}
+
+.tag_tekst{
+	color:white;
+	font-family: 'Raleway';
+	font-weight: bold;
+}
+
+
+/*Einde opmaak breadcrumbs*/
+
+

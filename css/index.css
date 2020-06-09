@@ -1,0 +1,350 @@
+body{
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+header{
+	height: 192px;
+}
+header>nav{
+	width:1000px;
+	margin-left: 35px;
+	margin-bottom: 30px;
+}
+
+/* menu items naast elkaar weergeven*/
+nav>ul>li {
+	list-style-type: none;
+	display: inline;
+	float: left;
+	margin: 20px ;
+	
+}
+
+/*hier eindigd menu*/
+
+ #logo{
+	width:210px;
+	height:70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header_line{
+	width:1280px;
+	
+}
+
+#melding{
+	width:25px;
+	height:30;
+	float:left;	
+	margin-left:910px;
+	margin-right:25px;
+	margin-top: -60px;
+}
+
+#profiel{
+	width:25px;
+	height:25px;
+	display: inline;
+	float:left;
+	margin-left:960px;
+	margin-top: -57px;
+}
+
+.naam_gebruiker{
+	display:inline;
+	float:left;
+	margin-left:1000px;
+	margin-top:-55px;
+
+}
+
+.zoekbalk_standaard{
+	width:186px;
+	height: 35px;
+	border-width: medium;
+}
+
+#zoekbalk_menu{
+	display: inline;
+	float:left;
+	margin-left:10px;
+	margin-top:-8px;
+	margin-left:10px;
+}
+
+#zoekicoon{
+	color: black;
+}
+
+/*.zoekbalk_button{
+	width:42px;
+	height: 42px;
+	float:left;
+	margin-top:-8px;
+	margin-bottom: 30px;
+}*/
+
+.zoekbalk_button{
+	width:42px;
+	height: 42px;
+	
+	}
+
+#zoekbalk_button_menu{
+	float:left;
+	margin-top:-8px;
+}
+
+.banner{
+	max-height:560px;
+	display: block;
+	clear:left;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1280px;
+}
+
+/*opmaak banner "centre of expertise"*/
+.banner-container{
+	text-align: left;
+	position: absolute;
+	width:100%;
+	height: auto;
+	margin-top: 50px;
+	margin-left: 140px;
+	max-width:550px;
+}
+/*opmaak banner "Waarom samenwerken?"*/
+.banner-container2{
+	text-align: left;
+	position: absolute;
+	width:100%;
+	height: auto;
+	margin-top: 40px;
+	margin-left: 140px;
+	max-width:550px;
+}
+
+.bannertitel{
+	margin-bottom: 15px;
+}
+
+/*Hier komt de opmaak voor Actualiteiten*/
+
+.actualiteit{
+	float: left;
+	box-sizing: border-box;
+	padding: 15px;
+	float: left;
+	width: 20%;
+	text-align: left;
+}
+
+#actualiteittitel{
+	display: block;
+	clear: both;
+	margin-left:145px;
+	margin-top:670px;
+}
+
+.artikel1_margin{
+	margin-left: 130px;
+}
+.nieuwssectie{
+	margin-top: -50px;
+}
+.nieuwsfoto{
+	width:220px;
+	height:200px;
+}
+
+.button_nieuws{
+	border: none;
+	display: inline-block;
+	height: 40px;
+	width:140px;
+	margin-top:30px;
+	margin-bottom:60px;
+	margin-left: 605px;
+}
+
+/*Nu komt de opmaak van de evenementensectie*/
+
+
+
+#evenemententitel{
+	display: block;
+	clear: both;
+	margin-left:145px;
+	margin-top:550px;
+	margin-bottom:40px;
+}
+
+/*Opmaak van de foto's bij elk evenement*/
+.evenementfoto{
+	width: 125px;
+	height: 120px;
+	display: inline;
+	float:left;
+}
+
+/*Opmaak van elk evenementfoto die links staat (de eerste evenementfoto van elk rij)*/
+.eerste{
+	margin-left:145px;
+}
+
+/*Dit is de opmaak van de grijze kader om elk evenement*/
+.kader_evenement{
+	background-color: rgba(204,204,204,0.25); /*grijs*/
+	width: 350px;
+	height: 120px;
+	margin-right: 40px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+
+/*Opmaak van de tekst in de grijze kader van elk evenement*/
+.tekst_evenement{
+	margin-left: 10px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+/*Opmaak van elk evenementfoto die rechts staat (de tweede evenementfoto van elk rij)*/
+.tweede{
+margin-right:145px;
+}
+
+
+/*Einde opmaak evenementensectie*/
+
+.evenement_button{
+	width:170px;
+	height:40px;
+	border: none;
+	display: inline-block;
+	margin-top:30px;
+	margin-bottom:60px;
+	margin-left: 555px;
+
+}
+
+/*Hier begint de opmaak van de footer*/
+
+footer{
+	margin-top:400px;
+	width: 1280px;
+	height:350px;
+	background-color: #414B4F; /*donkerblauw*/
+}
+
+footer h4{
+	margin-left: 145px;
+	margin-top:50px;
+}
+
+
+/*Opmaak van de links in de footer*/
+footer ul{
+	list-style-type: none;
+	margin-left: 106px;
+}
+
+/*Elk listitem krijgt een margin-bottom van 7px*/
+footer li{
+	margin-bottom: 15px;
+}
+
+.col-01 , .col-02{
+	float:left;
+}
+
+.col-01{
+	width:420px;
+}
+
+.col-02{
+	margin-left: -50px;
+}
+
+
+#text_socialmedia{
+	margin-right: 145px;
+	float:right;
+	margin-top: 50px;
+}
+
+#socialmedia{
+	width:240px;
+	height:40px;
+	float:right;
+	margin-right:145px;
+	margin-top:5px;
+}
+
+#footer_line{
+    float: left;
+    border-color: white;
+    border-width: 1px;
+    width: 1280px;
+    margin-top: 50px;
+}
+
+
+/*Einde opmaak footer*/
+
+
+#emailadres{
+	width:575px;
+	height: 40px;
+	border-width: medium;
+	margin-left: 345px;
+	margin-top:150px;
+	display: inline;
+	float:left;
+	position: absolute;
+
+}
+.button_inschrijven{
+	border: none;
+	display: inline-block;
+	height: 45px;
+	width:160px;
+	position: absolute;
+	margin-left:920px;
+	margin-top:150px;
+	
+}
+
+.banner3{
+	display: inline;
+	float:left;
+}
+
+.extra_footer{
+	display: inline;
+	float: left;
+}
+
+li>.extra_footer{
+	margin-top:10px;
+	margin-right: 4px;
+}
+
+
+
+
+
+
+
+
+
+

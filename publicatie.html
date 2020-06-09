@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Centre of Expertise</title>
+	<link href="css/publicaties.css" type="text/css" rel="stylesheet"/>
+	<link href="css/index.css" type="text/css" rel="stylesheet"/>
+	<link href="css/partners.css" type="text/css" rel="stylesheet"/>
+	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	
+	<header>
+	<!--In de header komt de logo, de notificatie bel en account menu. Daar onder de navigatie menu + banner met informatie over Centre of Expertise -->
+		<a href="index.html">
+			<img src="img/icoons/logo.jpg" alt="logo" id="logo"/> 
+		</a>
+
+		<img src="img/icoons/melding.png" alt=""id="melding"/>
+		
+		<img src="img/icoons/profiel.png" alt="" id="profiel"/>
+		<p class="naam_gebruiker">Naam gebruiker</p>
+
+
+		<!--Dit is het hoofdmenu-->
+		<nav class="hoofdmenu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+	  			<li><a href="publicatie.html" class="pagina">Publicatie</a></li>
+	  			<li><a href=" ">Evenementen</a></li>
+	  			<li><a href="partners.html">Partners</a></li>
+	  			<li><a href="onderzoeken.html" >Onderzoeken</a></li>
+	  			<li><a href=" ">Over ons</a></li>
+			</ul>
+		</nav>
+		<form method="GET" action="#"/>
+ 			<input type="email" class="zoekbalk_standaard" id="zoekbalk_menu" name="zoeken" placeholder="Zoeken"/>
+ 			<button type="button" class="zoekbalk_button" id="zoekbalk_button_menu"><i class="fas fa-search" id="zoekicoon"></i></button>
+ 		</form>
+		
+		<hr id="header_line">
+
+		<nav class="breadcrumbs">
+		<ul>
+			<li class="breadcrumbs breadcrumbs_margin"><a href="index.html">Home</a></li>
+			<li class="breadcrumbs niet">></li>
+			<li class="breadcrumbs niet"><a href="#">publicatie</a></li>
+		</ul>
+	</nav>
+	</header>
+
+	<section class="publicaties">
+		<h1>Publicaties</h1>
+	
+
+		 <section id="thema">
+			<p class="filter3-1 filter3 titel_filter">Categorie:</p>	
+		 	<select name="categorie" class="filter3 dropdown3 dropdown3-1">
+		 		<option value="alles">Alles</option>
+	 			<option value="nieuws">Nieuws</option>
+	 			<option value="blogs">Blogs</option>
+		 	</select>
+	 	</section>
+
+	 	<section id="status">
+		 	<p class="filter3 titel_filter">Lectoraat:</p>	
+		 	<select name="onderzoekers" class="filter3 dropdown3 dropdown3-2">
+		 		<option value="alles">Alles</option>
+	 			<option value="lopend">Revalidatie</option>
+	 			<option value="afgelopen">Techniek voor Gezondheid</option>
+		 	</select>
+		 </section>
+
+	 		<section id="sorteren">
+		 	<p class="filter3 titel_filter sorteren">Sorteren op:</p>	
+		 	<select name="onderzoekers" class="filter3 dropdown3 dropdown3-3">
+		 		<option value="nieuwe publicaties">↑Nieuwste publicaties</option>
+	 			<option value="oudste publicaties">↓Oudste publicaties</option>
+		 	</select>
+		 </section>
+	 	</form>
+
+
+	 	<section id="artikelen">
+		 	<img src="img/nieuws/artikel1.png" alt="" class="artikelfoto"/>
+		 	<section class="kader_artikelen">
+		 		<section class="tag">
+		 		<p class="tag_tekst">Nieuws</p>
+		 		</section>
+		 		<h4 class="tekst_artikelen artikeltekst_afstand">EERSTE TECHMISSION010 GROOT SUCCES</h4>
+		 		<p class="tekst_artikelen tekst">In de Onderzeebootloods van RDM Rotterdam vond de eerste editie van TechMission010 plaats, waarvoor de tweedejaars vmbo-, mavo-, havo- en vwo-leerlingen hun technische skills hebben ingezet.</p>
+		 		<button type="button" class="button_leesmeer">Lees meer</button>
+		 	</section>
+
+		 	<img src="img/nieuws/artikel2.png" alt="" class="artikelfoto"/>
+		 	<section class="kader_artikelen">
+		 		<section class="tag">
+		 		<p class="tag_tekst">Nieuws</p>
+		 		</section>
+		 		<h4 class="tekst_artikelen artikeltekst_afstand">TWEE HOGESCHOOLONDERZOEKEN GENOMINEERD VOOR PRIJS</h4>
+		 		<p class="tekst_artikelen tekst">Spannende tijden, want De Haagse Hogeschool is met twee inzendingen genomineerd voor de RAAK-award voor toonaangevend praktijkgericht onderzoek van hogescholen.</p>
+		 		<button type="button" class="button_leesmeer">Lees meer</button>
+		 	</section>
+
+		 	<img src="img/nieuws/artikel3.png" alt="" class="artikelfoto"/>
+		 	<section class="kader_artikelen">
+		 		<section class="tag">
+		 		<p class="tag_tekst">Nieuws</p>
+		 		</section>
+		 		<h4 class="tekst_artikelen  artikeltekst_afstand">OPTIMALE ROLSTOEL MET ROELSTOELERGOMETER</h4>
+		 		<p class="tekst_artikelen tekst">Het onderzoekslab op de Sportcampus Zuiderpark heeft een rolstoelergometer.De rolstoelergometer biedt de mogelijkheid om, in de eigen rolstoel of handbike, zo realistisch...</p>
+		 		<button type="button" class="button_leesmeer">Lees meer</button>
+		 	</section>
+
+		 	<img src="img/nieuws/artikel4.png" alt="" class="artikelfoto"/>
+		 	<section class="kader_artikelen">
+		 		<section class="tag">
+		 		<p class="tag_tekst">Nieuws</p>
+		 		</section>
+		 		<h4 class="tekst_artikelen artikeltekst_afstand">VERDIENEN AAN EEN ZANDBAK</h4>
+		 		<p class="tekst_artikelen tekst">Sinds 1 augustus vorig jaar is het lectoraat Energy in Transition op De Haagse Hogeschool gestart. Lector Sander Mertens gaf afgelopen maandag 28 januari een lunchlezing...</p>
+		 		<button type="button" class="button_leesmeer">Lees meer</button>
+		 	</section>
+
+		 	<img src="img/nieuws/artikel5.png" alt="" class="artikelfoto"/>
+		 	<section class="kader_artikelen">\<section class="tag">
+		 		<p class="tag_tekst">Nieuws</p>
+		 		</section>
+		 		<h4 class="tekst_artikelen artikeltekst_afstand">SOPHIA REVALIDATIE EN DE HAAGSE HOGESCHOOL HALEN BANDEN AAN</h4>
+		 		<p class="tekst_artikelen tekst">De Haagse Hogeschool en Sophia Revalidatie, die al nauw met elkaar samenwerken, gaan nog meer met elkaar optrekken. Op 25 januari ondertekenden...</p>
+		 		<button type="button" class="button_leesmeer">Lees meer</button>
+		 	</section>
+
+		 	<img src="img/nieuws/artikel6.png" alt="" class="artikelfoto"/>
+		 	<section class="kader_artikelen">
+		 		<section class="tag">
+		 		<p class="tag_tekst">Nieuws</p>
+		 		</section>
+		 		<h4 class="tekst_artikelen artikeltekst_afstand">10-10</h4>
+		 		<p class="tekst_artikelen tekst">Vandaag vieren we de dag van de duurzaamheid. Een dag waarop we samen met studenten en docenten allerlei interactieve en inhoudelijke activiteiten organiseren om te laten zien ...</p>
+		 		<button type="button" class="button_leesmeer">Lees meer</button>
+		 	</section>
+<div class="pagination">
+			  <a href="#">&laquo;</a>
+			  <a class="active" href="#">1</a>
+			  <a href="#">2</a>
+			  <a href="#">3</a>
+			  <a href="#">...</a>
+			  <a href="#">10</a>
+			  <a href="#">&raquo;</a>
+			</div>
+
+	</section>
+
+	<footer class="container">
+
+		<section class="col-01">
+			<h4 class="titelfooter">Kenniscentra</h4>
+			<ul>
+				<li><a href="#" class="footerlinks"> > Cyber Security</a></li>
+				<li><a href="#" class="footerlinks"> > Betafactory</a></li>
+				<li><a href="#" class="footerlinks"> > Bewegingstechnologie</a></li>
+				<li><a href="#" class="footerlinks"> > Sport, Bewegen en Gezondheid</a></li>
+			</ul>
+		</section>
+
+		<section class="col-02">
+			<h4 class="titelfooter">Ga naar</h4>
+			<ul>
+				<li><a href="#" class="footerlinks"> > Studenten</a></li>
+				<li><a href="#" class="footerlinks"> > Docenten</a></li>
+				<li><a href="#" class="footerlinks"> > Kenniskringleden</a></li>
+			</ul>
+		</section>
+
+		<p id="text_socialmedia">Volg Centre of Expertise op social media</p>
+		<img src="img/icoons/socialmedia.png" alt="" id="socialmedia"/>
+		
+		<section class="laatste_footer">
+			<hr id="footer_line">
+			<ul>
+				<li><a href="#" class="extra_footer">&copy 2019 HHS Centre Of Expertise - Alle rechten voorbehouden</a></li>
+				<li><a href="#" class="extra_footer">Disclaimer</a></li>
+				<li><a href="#" class="extra_footer">Cookies</a></li>
+				<li><a href="#" class="extra_footer">Privacy</a></li>
+			</ul>
+			
+		</section>
+	</footer>
+
+</body>
+</html>
+
+
+
+	

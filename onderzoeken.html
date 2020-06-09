@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Centre of Expertise</title>
+	<link href="css/index.css" type="text/css" rel="stylesheet"/>
+	<link href="css/onderzoeken.css" type="text/css" rel="stylesheet"/>
+	<link href="css/partners.css" type="text/css" rel="stylesheet"/>
+	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	
+	<header>
+	<!--In de header komt de logo, de notificatie bel en account menu. Daar onder de navigatie menu + banner met informatie over Centre of Expertise -->
+		<a href="index.html">
+			<img src="img/icoons/logo.jpg" alt="logo" id="logo"/> 
+		</a>
+
+		<img src="img/icoons/melding.png" alt=""id="melding"/>
+		
+		<img src="img/icoons/profiel.png" alt="" id="profiel"/>
+		<p class="naam_gebruiker">Naam gebruiker</p>
+
+
+		<!--Dit is het hoofdmenu-->
+		<nav class="hoofdmenu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+	  			<li><a href="publicatie.html">Publicatie</a></li>
+	  			<li><a href=" ">Evenementen</a></li>
+	  			<li><a href="partners.html">Partners</a></li>
+	  			<li><a href="onderzoeken.html" class="pagina" >Onderzoeken</a></li>
+	  			<li><a href=" ">Over ons</a></li>
+			</ul>
+		</nav>
+		<form method="GET" action="#"/>
+ 			<input type="email" class="zoekbalk_standaard" id="zoekbalk_menu" name="zoeken" placeholder="Zoeken"/>
+ 			<button type="button" class="zoekbalk_button" id="zoekbalk_button_menu"><i class="fas fa-search" id="zoekicoon"></i></button>
+ 		</form>
+		
+		<hr id="header_line">
+
+		<!--Code voor breadcrumb-->
+
+		<nav class="breadcrumbs">
+		<ul>
+			<li class="breadcrumbs breadcrumbs_margin"><a href="index.html">Home</a></li>
+			<li class="breadcrumbs niet">></li>
+			<li class="breadcrumbs niet"><a href="#">Onderzoeken</a></li>
+		</ul>
+	</nav>
+
+	</header>
+
+	<!--Einde header-->
+
+	<!--Code voor tabladen-->
+
+	<nav class="tabladen">
+		<section class="tabs eerste_tab">
+			<p class="tabs_font">Mijn onderzoeken</p>
+		</section>
+
+		<section class="tabs open">
+			<p class="tabs_font">Nieuwe onderzoeken</p>
+		</section>
+	</nav>
+
+	<!--Code voor de content in de tablad "Nieuwe partners"-->
+
+	<section class="achtergrond_partners">
+		
+		<form method="GET" action="#"/>
+
+		<section id="thema">
+			<p class="filter2-1 filter2 titel_filter">Thema:</p>	
+		 	<select name="kenniscentra" class="filter2 dropdown2 dropdown2-1">
+		 		<option value="alles">Alles</option>
+	 			<option value="revalidatie">Revalidatie</option>
+	 			<option value="techniek">Techniek voor Gezondheid</option>
+		 	</select>
+	 	</section>
+
+	 	<section id="status">
+		 	<p class="filter2 titel_filter">Status:</p>	
+		 	<select name="onderzoekers" class="filter2 dropdown2 dropdown2-2">
+		 		<option value="alles">Alles</option>
+	 			<option value="lopend">Lopend</option>
+	 			<option value="afgelopen">Afgelopen</option>
+	 			<option value="toekomstig">Toekomstig</option>
+		 	</select>
+		 </section>
+
+		 <input type="email" class="zoekbalk_standaard" id="zoekbalk_partners" name="zoeken" placeholder="Zoeken"/>
+	 		<button type="button" class="zoekbalk_button" id="zoekbalk_button_partners"><i class="fas fa-search" id="zoekicoon"></i></button>
+
+	 		 <section id="sorteren">
+		 	<p class="filter2 titel_filter sorteren">Sorteren op:</p>	
+		 	<select name="onderzoekers" class="filter2 dropdown2 dropdown2-3">
+		 		<option value="nieuwe onderzoeken">↑Nieuwste onderzoeken</option>
+	 			<option value="oudste onderzoeken">↓Oudste onderzoeken</option>
+		 	</select>
+		 </section>
+	 	</form>
+
+	 	<section id="onderzoeken">
+		 	<img src="img/onderzoeken/onderzoek1.png" alt="" class="onderzoeksfoto"/>
+		 	<section class="kader_onderzoeken">
+		 		<h4 class="tekst_onderzoeken onderzoektekst_afstand">H2ENERGYLAB</h4>
+		 		<p class="tekst_onderzoeken">Op de campus van RDM Rotterdam is in Innovation Dock een waterstoflab ingericht; het H2EnergyLab. Studenten, docenten, onderzoekers en ondernemers werken hier samen op het gebied van waterstoftechnologie.</p>
+		 		<button type="button" class="button_leesmeer">Lees meer</button>
+		 	</section>
+
+		 	<img src="img/onderzoeken/onderzoek2.png" alt="" class="onderzoeksfoto"/>
+		 	<section class="kader_onderzoeken">
+		 		<h4 class="tekst_onderzoeken onderzoektekst_afstand">LEERKRACHTEN EN OUDERS: PARTNERS IN DE AANPAK VAN PESTEN</h4>
+		 		<p class="tekst_onderzoeken">Pesten op school is een beladen onderwerp dat de relatie tussen leerkracht en ouders flink op de proef stelt. Een gesprek over pesten ligt gevoelig omdat het raakt aan de opvoeding thuis. Bovendien zien leerkrachten en ouders...</p>
+		 		<button type="button" class="button_leesmeer">Lees meer</button>
+		 	</section>
+
+		 	<img src="img/onderzoeken/onderzoek3.png" alt="" class="onderzoeksfoto"/>
+		 	<section class="kader_onderzoeken">
+		 		<h4 class="tekst_onderzoeken onderzoektekst_afstand">RUIMTEN EN DIENSTEN VOOR PALLIATIEVE ZORG </h4>
+		 		<p class="tekst_onderzoeken">Per 1 september 2017 werkt Ria Martens aan haar promotieonderzoek 'Ruimten en diensten voor palliatieve zorg'. Het onderzoek probeert de bestaande zorg tijdens een zeer kwetsbare fase van een mensenleven te verbeteren.</p>
+		 		<button type="button" class="button_leesmeer">Lees meer</button>
+		 	</section>
+
+		 	<img src="img/onderzoeken/onderzoek4.png" alt="" class="onderzoeksfoto"/>
+		 	<section class="kader_onderzoeken">
+		 		<h4 class="tekst_onderzoeken onderzoektekst_afstand">DE SOCIALE PRODUCTIE VAN RUIMTE IN HET HOGER ONDERWIJS </h4>
+		 		<p class="tekst_onderzoeken">Met ingang van 1 september 2017 maakt Bernadette Nooij met haar promotieonderzoek naar ‘De sociale productie van ruimte in het hoger onderwijs’ onderdeel uit van het Lectoraat Facility Management. Met haar...</p>
+		 		<button type="button" class="button_leesmeer">Lees meer</button>
+		 	</section>
+
+		 	<img src="img/onderzoeken/onderzoek5.jpeg" alt="" class="onderzoeksfoto"/>
+		 	<section class="kader_onderzoeken">
+		 		<h4 class="tekst_onderzoeken onderzoektekst_afstand">ONDERZOEK NAAR DE MAATSCHAPPELIJKE DOORWERKING VAN CULTURELE PRODUCTIES</h4>
+		 		<p class="tekst_onderzoeken">​​De aanleiding voor dit onderzoek ligt in de vraag naar welke doorwerking cultuurparticipatie in de samenleving heeft. Deze vraag is enerzijds voor de maatschappij als zodanig van belang, omdat daar de positieve effecten ...</p>
+		 		<button type="button" class="button_leesmeer">Lees meer</button>
+		 	</section>
+
+		 	<img src="img/onderzoeken/onderzoek6.png" alt="" class="onderzoeksfoto"/>
+		 	<section class="kader_onderzoeken">
+		 		<h4 class="tekst_onderzoeken onderzoektekst_afstand">Buurtwarmte</h4>
+		 		<p class="tekst_onderzoeken">​​Het MVI-E-project Buurtwarmte heeft tot doel om vanuit bewoners(groep)-perspectief bij te dragen aan de ontwikkeling van het warmtenet van Warmtestad Groningen, gebruikmakend van ervaringen binnen ((Wageningen en Culemborg) en buiten ...</p>
+		 		<button type="button" class="button_leesmeer">Lees meer</button>
+		 	</section>
+
+		 	<div class="pagination">
+			  <a href="#">&laquo;</a>
+			  <a class="active" href="#">1</a>
+			  <a href="#">2</a>
+			  <a href="#">3</a>
+			  <a href="#">...</a>
+			  <a href="#">10</a>
+			  <a href="#">&raquo;</a>
+			</div>
+
+		 </section>
+	</section>
+
+	<!--Einde code van content in tablad-->
+
+	<footer class="container">
+
+		<section class="col-01">
+			<h4 class="titelfooter">Kenniscentra</h4>
+			<ul>
+				<li><a href="#" class="footerlinks"> > Cyber Security</a></li>
+				<li><a href="#" class="footerlinks"> > Betafactory</a></li>
+				<li><a href="#" class="footerlinks"> > Bewegingstechnologie</a></li>
+				<li><a href="#" class="footerlinks"> > Sport, Bewegen en Gezondheid</a></li>
+			</ul>
+		</section>
+
+		<section class="col-02">
+			<h4 class="titelfooter">Ga naar</h4>
+			<ul>
+				<li><a href="#" class="footerlinks"> > Studenten</a></li>
+				<li><a href="#" class="footerlinks"> > Docenten</a></li>
+				<li><a href="#" class="footerlinks"> > Kenniskringleden</a></li>
+			</ul>
+		</section>
+
+		<p id="text_socialmedia">Volg Centre of Expertise op social media</p>
+		<img src="img/icoons/socialmedia.png" alt="" id="socialmedia"/>
+		
+		<section class="laatste_footer">
+			<hr id="footer_line">
+			<ul>
+				<li><a href="#" class="extra_footer">&copy 2019 HHS Centre Of Expertise - Alle rechten voorbehouden</a></li>
+				<li><a href="#" class="extra_footer">Disclaimer</a></li>
+				<li><a href="#" class="extra_footer">Cookies</a></li>
+				<li><a href="#" class="extra_footer">Privacy</a></li>
+			</ul>
+			
+		</section>
+	</footer>
+</body>
+</html>
+
+
+
+
+
